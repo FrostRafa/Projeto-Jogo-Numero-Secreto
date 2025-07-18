@@ -16,7 +16,7 @@ function exibirTextoNaTela (tag, texto) {
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate: 1.2});
 }
-exibirTextoNaTela ("h1", "Jogo do Número Secreto!");
+exibirTextoNaTela ("h1", "Bem vindos ao Jogo do Número Secreto!");
 exibirTextoNaTela ("p", "Escolha um número entre 1 e 10.");
 
 function exibirMensagemInicial () {
